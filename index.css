@@ -1,0 +1,205 @@
+
+
+body {
+    background-color: #fbf7ea;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+    color: #405794;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    color:#405794;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #405794;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color:#405794;
+}
+
+h5 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    font-variant: all-small-caps;
+    color: #405794;
+}
+
+h6{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+    -webkit-text-stroke-color: #405794;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: #fbf7ea;
+    text-shadow: 4px 4px 0px #f0e800;
+}
+
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #405794;
+}
+
+button{
+    width: 170px;
+    height: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    font-variant: all-small-caps;
+    color: #405794;
+    outline: #405794;
+    background-color: #fbf7ea;
+    border: 1px solid #405794;
+    box-shadow: 8px 8px #405794;
+    margin-top: 20px;
+   
+}
+
+button:hover{
+    box-shadow: 4px 4px;
+    transform: translate3d(4px);
+}
+
+.hiIm {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #405794;
+    margin-right: 30px;
+    letter-spacing: .10em;
+
+}
+
+.andreaHeader {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #405794;
+    font-size: 250px;
+    font-weight: bold;
+    padding: 0px, 0px, 0px, 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.pageHeader{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    border-bottom: #405794 1px solid;
+    margin: 0px;
+}
+
+.heroMain{
+    display: flex;
+}
+
+.Nav{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.aboutBlurbGroup{
+display: flex;
+flex-direction: column;
+width: 35%;
+padding-left: 2%;
+padding-top: 1%;
+padding-right: 5%;
+border-right: #405794 1px solid;
+
+}
+#readmoreMain {
+    float: right;
+}
+
+.mainPort{
+    align-items: center;
+    width: 35%;
+    padding: 20px 20px 20px 30px;
+}
+
+.Nav{
+    padding: 10px, 20px, 20px, 10px;
+    border-right: #405794 1px solid;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.footer{
+    width: 100vw;
+    height: 400px;
+    border-top: #405794 solid 1px;
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+
+}
+
+.footerImage{
+    display: none;
+    
+}
+
+.AndreaRisjord{
+    display: flex end;
+}
+
+.footerMenu{
+   display: flex;
+   width: 100vw;
+    
+}
+
+    .column1{
+        flex-direction: column;
+        display: inline-flex;
+        margin-right: 40px;
+    }
+
+    .column2{
+        flex-direction: column;
+        display: inline-flex;
+        margin-right: 40px;
+    }
+
+    .cloumn3{
+        order: 3;
+        display: inline-flex;
+        padding-top: 30px;
+    }
+
+
+
+.sloganFooter{
+    width: 50vw;
+    padding-left: 20px;
+    padding-top: 45px;
+    display: flex;
+    
+}
