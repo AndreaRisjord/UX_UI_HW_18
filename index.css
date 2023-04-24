@@ -36,8 +36,6 @@ h5 {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.15em;
     font-variant: all-small-caps;
     color: #405794;
@@ -169,50 +167,62 @@ border-right: #405794 1px solid;
     height: 400px;
     border-top: #405794 solid 1px;
     display: flex;
-    justify-content: space-around;
-    margin: 70px;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 30px;
 
 }
 
-.footerImage{
-    display: none;
-    
+
+.AndreaRisjordfooter{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    width: 100vw;
+    border: 1px solid red;
+
 }
 
-.AndreaRisjord{
-    display: flex end;
-}
 
 .footerMenu{
    display: flex;
    width: 100vw;
+   border: 1px solid purple;
     
 }
+    .footerImage{
+    visibility: hidden;
+    width: 45%;
+    
+    }
 
     .column1{
+        display: flex;
         flex-direction: column;
-        display: inline-flex;
         margin-right: 40px;
     }
 
     .column2{
+        display: flex;
         flex-direction: column;
-        display: inline-flex;
         margin-right: 40px;
     }
 
     .cloumn3{
-        order: 3;
-        display: inline-flex;
-        padding-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
 
-
-.sloganFooter{
-    width: 50vw;
-    padding-left: 20px;
-    padding-top: 45px;
+    .sloganFooter{
     display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    margin-right: 70px;
+    width: 100vw;
+    border: 1px solid red;
     
-}
+    }
