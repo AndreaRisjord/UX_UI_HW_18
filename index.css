@@ -164,6 +164,37 @@ border-right: #405794 1px solid;
     width: 20%;
 }
 
+.mySkills{
+    display: flex;
+    border-top: 1px solid #405794;
+    margin: 20px auto;
+    justify-content:space-around
+}
+
+.skillList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid #405794;
+    padding-right: 200px;
+    padding-left: 200px;
+    
+}
+
+.toolsList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.myWork{
+    display: flex;
+    border-top: 1px solid #405794;
+    margin:20px auto;
+}
+
+
 .footer{
     width: 100vw;
     height: 400px;
