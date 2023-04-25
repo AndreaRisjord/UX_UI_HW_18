@@ -185,10 +185,13 @@ border-right: #405794 1px solid;
 
 }
 
+.footerCenter{
+display: flex;
+}
 
 .footerMenu{
    display: flex;
-   width: 100vw;
+   width: 45%;
    border: 1px solid purple;
     
 }
@@ -201,28 +204,37 @@ border-right: #405794 1px solid;
     .column1{
         display: flex;
         flex-direction: column;
-        margin-right: 40px;
+        justify-content: center;
+        padding: 10%;
+        padding-left: 10%;
+
     }
 
     .column2{
         display: flex;
         flex-direction: column;
-        margin-right: 40px;
+        justify-content: center;
+        padding: 10%;
     }
 
-    .cloumn3{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+    .column3{
+        margin: auto;
+    }
+    .LinkedIn {
+        margin: 55%;
+    }
+
+    .Instagram {
+        margin: 55%;
     }
 
 
     .sloganFooter{
     display: flex;
     flex-direction:row;
-    justify-content: flex-end;
-    margin-right: 70px;
-    width: 100vw;
+    justify-content: center;
+    margin: 20px;
     border: 1px solid red;
+    height: 80px
     
     }
