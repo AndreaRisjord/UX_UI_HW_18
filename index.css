@@ -174,25 +174,30 @@ border-right: #405794 1px solid;
 .mySkills{
     display: flex;
     border-top: 1px solid #405794;
-    margin: 20px auto;
-    justify-content:space-around
+    justify-content: space-evenly;
 }
 
-.skillList {
+.softSkills{
+    display: flex;
+    flex: 30%;
+    flex-direction: column;
+}
+
+.designSkills {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    flex: 30%;
     border-right: 1px solid #405794;
-    padding-right: 200px;
-    padding-left: 200px;
+    border-left: 1px solid  #405794;
+    padding: 100px;
     
 }
 
 .toolsList{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 25px;
+   display: flex;
+   flex-direction: column;
+   flex: 30%;
+    
 }
 
 .myWork{
