@@ -269,11 +269,11 @@ display: flex;
         width: fit-content;
     }
     .LinkedIn {
-        margin: 55%;
+        margin: 45%;
     }
 
     .Instagram {
-        margin: 55%;
+        margin: 45%;
     }
 
     .sloganFooter{
@@ -281,7 +281,7 @@ display: flex;
     flex-direction:row;
     justify-content:center;
     margin: 20px;
-    border: 1px solid red;
+    padding-bottom: 70px;
     height: 80px
     
     }
